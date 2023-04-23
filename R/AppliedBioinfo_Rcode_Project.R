@@ -397,7 +397,7 @@ gt(myTopHits.df.g)
 vplot_g <- ggplot(myTopHits_g) +
   aes(y=-log10(adj.P.Val), x=logFC, text = paste("Symbol:", myTopHits.df.g$geneID)) +
   geom_point(size=2) +
-  geom_hline(yintercept = -log10(0.01), linetype="longdash", colour="grey", size=1) +
+  geom_hline(yintercept = -log10(0.05), linetype="longdash", colour="grey", size=1) +
   geom_vline(xintercept = 1, linetype="longdash", colour="#6633CC", size=1) +
   geom_vline(xintercept = -1, linetype="longdash", colour="#FF00CC", size=1) +
   #annotate("rect", xmin = 1, xmax = 12, ymin = -log10(0.01), ymax = 7.5, alpha=.2, fill="#BE684D") +
