@@ -1,0 +1,13 @@
+{
+	"n_targets": 36254,
+	"n_bootstraps": 0,
+	"n_processed": 2447492,
+	"n_pseudoaligned": 1463298,
+	"n_unique": 137804,
+	"p_pseudoaligned": 59.8,
+	"p_unique": 5.6,
+	"kallisto_version": "0.48.0",
+	"index_version": 10,
+	"start_time": "Sun Apr 23 15:02:34 2023",
+	"call": "./kallisto/kallisto quant -i CANNA -o SRR10600888 SRR10600888_trimmed_1.fastq.gz SRR10600888_trimmed_2.fastq.gz"
+}
