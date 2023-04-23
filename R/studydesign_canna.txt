@@ -1,0 +1,13 @@
+sample	sra_accession	organ	condition	group
+FL21	SRR10600888	flower	S2	flower_S2
+FL22	SRR10600877	flower	S2	flower_S2
+FL23	SRR10600875	flower	S2	flower_S2
+FL41	SRR10600934	flower	S4	flower_S4
+FL42	SRR10600933	flower	S4	flower_S4
+FL43	SRR10600931	flower	S4	flower_S4
+TR21	SRR10600920	trichome	S2	trichome_S2
+TR22	SRR10600919	trichome	S2	trichome_S2
+TR23	SRR10600918	trichome	S2	trichome_S2
+TR41	SRR10600907	trichome	S4	trichome_S4
+TR42	SRR10600906	trichome	S4	trichome_S4
+TR43	SRR10600905	trichome	S4	trichome_S4
