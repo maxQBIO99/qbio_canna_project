@@ -1,7 +1,8 @@
 #!/bin/bash
-#This script peforms allignment of the Cannabis Sativa Female cDNA transcriptome with Kallisto first, we build an index from our 
-#reference fasta file The reference plant transcriptome files are sourced from here: https://plants.ensembl.org/info/data/ftp/index.html 
-#kallisto index -i CANNA Cannabis_sativa_female.cs10.cdna.all.fa
+#This script peforms allignment of the Cannabis Sativa Female cDNA transcriptome with Kallisto first, we build an index from our reference fasta file 
+#The reference plant transcriptome files are sourced from here: https://plants.ensembl.org/info/data/ftp/index.html 
+
+kallisto index -i CANNA Cannabis_sativa_female.cs10.cdna.all.fa
 
 #now we will map the reads to the indexed reference transcriptome
 #we will also create log files to save the output shown in the terminal
