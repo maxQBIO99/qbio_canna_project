@@ -1,6 +1,6 @@
 #!/bin/bash
 # This script downloads the SRR files from a self-made textfile containing all the necessary links.
-# After downloading the files it will compare the corresponding md5sum which are contained in another self-made textfile
+# After downloading the files it will compare the corresponding md5sum which are contained in another self-made textfile.
 
 urls_file="urls.txt"
 md5sums_file="md5sums_ena.txt"
